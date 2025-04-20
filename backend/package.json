@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "@prisma/extension-accelerate": "^1.2.2",
+    "hono": "^4.7.4",
+    "init": "^0.1.2",
+    "npx": "^10.2.2",
+    "prisma": "^6.5.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250214.0",
+    "wrangler": "^4.6.0"
+  }
+}
